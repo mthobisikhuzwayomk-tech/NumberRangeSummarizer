@@ -1,4 +1,4 @@
-# NumberSummarizerAssessment
+# NumberSummarizer
 
 ## Executive Summary
 The Number Summarizer is a simple Java program that takes a comma-separated string of integers, parses them into a sorted collection without duplicates, and produces a compact summary where consecutive sequences are collapsed into ranges (`start-end`).  
