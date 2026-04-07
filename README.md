@@ -31,7 +31,6 @@ Defines the contract:
 This ensures flexibility — different implementations can be provided without changing the contract.
 
 ---
-
 ### 2. `NumberRangeSummarizerImpl` (Implementation)
 - **Parsing (`collect`)**
 - Splits input on commas.
@@ -52,7 +51,6 @@ This ensures flexibility — different implementations can be provided without c
 - Prompts the user for input, parses, and prints results.
 
 ---
-
 ### 3. `NumberRangeSummarizerImplTest` (JUnit 5 Tests)
 Thoroughly tests parsing and summarization logic.
 
@@ -76,28 +74,28 @@ Thoroughly tests parsing and summarization logic.
 
 ## Example Run
 
-**Input:**
+Input:
 1,3,6,7,8,12,13,14,15,21,22,23,24,31
 
-**Output:**
+Output:
 - Original input: 1,3,6,7,8,12,13,14,15,21,22,23,24,31
 - Parsed numbers: [1, 3, 6, 7, 8, 12, 13, 14, 15, 21, 22, 23, 24, 31]
 - Range summary: 1, 3, 6-8, 12-15, 21-24, 31
 
 ---
 
-## Requirements to Run
+Requirements to Run
 
-### Java Development Kit (JDK) 8 or higher
+Java Development Kit (JDK) 8 or higher
 - Needed to compile and run the Java files.  
 - Set `JAVA_HOME` and ensure `java` & `javac` are in your system PATH.  
 
-### IDE or Text Editor (optional)
+IDE or Text Editor (optional)
 - Eclipse (used in development), IntelliJ IDEA, or VS Code.  
 - Optional if using the command line.  
 
-### JUnit 5 Library (for running tests)
+JUnit 5 Library (for running tests)
 - Required only if you want to run `NumberRangeSummarizerImplTest.java`.  
 - In Eclipse:  
-  1. Right-click project → **Build Path → Add Library → JUnit**  
-  2. Select **JUnit 5**  
+  1. Right-click project → Build Path → Add Library → JUnit  
+  2. Select JUnit 5 
